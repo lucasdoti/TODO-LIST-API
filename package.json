@@ -8,8 +8,7 @@
     "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "author": "Lucas Doti Souza",
-  "license": "MIT",
-  "dependencies": {
+    "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "mongoose": "^4.11.10",
