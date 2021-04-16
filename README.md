@@ -33,7 +33,7 @@ Para poder executar este projeto, é necessário:
 
 ## Hierarquia de arquivo ##
 
-Foi seguido o padrão de design MVC para construir este projeto, mas a única letra que não estamos usando é "V", uma vez que não precisa de frontend para nossa API.
+Foi seguido o padrão de design MVC para a construção deste projeto, mas a única letra que não estamos usando é "V", uma vez que não precisa de frontend para nossa API.
  
 ```
 - TODO list API
