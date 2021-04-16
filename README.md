@@ -21,19 +21,19 @@ TODO list API permite pesquisar, criar itens de tarefas e também agrupá-los. �
 
 ## Inicio
 
-Para construir a API TODO list, foi usado a lista de bibliotecas padrão para colocar o servidor em funcionamento. Com isso, o primeiro é o NodeJS que instalará o Node e o npm que é a base do meu servidor e junto com o Express para construir um servidor web em endpoints de API. Express é a estrutura de aplicativo da web Node.js e é usado para construir todos os endpoints da API. Além disso, usei o banco de dados mongoDB para armazenar os dados da lista TODO.
+Para construir a API TODO list, foi usado a lista de bibliotecas padrão para colocar o servidor em funcionamento. Com isso, o primeiro é o NodeJS que instalará o Node e o npm que são a base do meu servidor e, junto foi usado com o Express para construir um servidor web em endpoints de API. Express é a estrutura de aplicativo da web Node.js e é usado para construir todos os endpoints da API. Além disso, foi usado o banco de dados mongoDB para armazenar os dados da lista TODO.
 
-Para poder executar este projeto, você precisa:
+Para poder executar este projeto, é necessário:
 
 1. Instalar [Node.js](https://nodejs.org/pt/)
 1. Instalar dependencias - `npm install`
-1. Execute o - `npm start` (Observação: certifique-se de iniciar seu banco de dados mongoDB usando o comando mongod.)
+1. Executar o - `npm start` (Observação: certifique-se de iniciar seu banco de dados mongoDB usando o comando mongod.)
 1. Instalar [mongoDB](https://www.mongodb.com/)
-1. Para poder testar os endpoints da API da TODO list, você pode usar ferramentas de front-end, como [Api Tester](https://apitester.com/), [Postman](https://www.getpostman.com/), etc.
+1. Para poder testar os endpoints da API da TODO list, você pode usar ferramentas de front-end, como [Api Tester](https://apitester.com/), [Postman](https://www.getpostman.com/).
 
 ## Hierarquia de arquivo ##
 
-Eu segui o padrão de design MVC para construir este projeto, mas a única letra que não estamos usando é "V", uma vez que não precisamos de frontend para nossa API.
+Foi seguido o padrão de design MVC para construir este projeto, mas a única letra que não estamos usando é "V", uma vez que não precisa de frontend para nossa API.
  
 ```
 - TODO list API
@@ -41,7 +41,7 @@ Eu segui o padrão de design MVC para construir este projeto, mas a única letra
       -controllers
 	      -todoController.js  		//todas as funções que tratam de endpoints de API estão localizadas neste arquivo
       -models
-        -todoModel.js     		//schemas de banco de dados estão localizados neste arquivo. 
+        -todoModel.js     		//schemas de banco de dados estão localizados neste arquivo 
       -routes
         -todoRoutes.js   	//contém todos os endpoints da API e lida com solicitações HTTP
    - .babelrc   			//Arquivo de configuração Babel
