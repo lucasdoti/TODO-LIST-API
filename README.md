@@ -21,7 +21,7 @@ TODO list API permite pesquisar, criar itens de tarefas e também agrupá-los. �
 
 ## Inicio
 
-Para construir a API TODO list, usei a lista de bibliotecas padrão para colocar o servidor em funcionamento. Com isso, o primeiro é o NodeJS que instalará o Node e o npm que é a base do meu servidor e usei-o junto com o Express para construir um servidor web em endpoints de API. Express é a estrutura de aplicativo da web Node.js e é usado para construir todos os endpoints da API. Além disso, usei o banco de dados mongoDB para armazenar os dados da lista TODO.
+Para construir a API TODO list, foi usado a lista de bibliotecas padrão para colocar o servidor em funcionamento. Com isso, o primeiro é o NodeJS que instalará o Node e o npm que é a base do meu servidor e junto com o Express para construir um servidor web em endpoints de API. Express é a estrutura de aplicativo da web Node.js e é usado para construir todos os endpoints da API. Além disso, usei o banco de dados mongoDB para armazenar os dados da lista TODO.
 
 Para poder executar este projeto, você precisa:
 
